@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --primary-font: "Rubik";
+  --secondary-font: "Overpass";
+}
+
+body {
+  background-color: #f9e6a2;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: var(--primary-font);
+}
+
+.container-sm {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+
+#result {
+  font-family: var(--secondary-font);
+}
+
+#text-input {
+  border: 1px solid #4d90ef;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+#check-btn {
+  margin: 20px auto;
+  width: 50%;
+  height: 35px;
+  background-color: #4d90ef;
+  border: 1px solid #327feb;
+  border-radius: 10px;
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container-sm {
+  border: 1px solid #327feb;
+  padding: 100px;
+}
