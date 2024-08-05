@@ -5,5 +5,5 @@
 <h2>Projects</h2>
 
 <ol>
-  <li>Palindrome Checker</li>
+  <li><a href="palindrome-checker">Palindrome Checker</a></li>
 </ol>
