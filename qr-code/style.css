@@ -23,6 +23,14 @@ body {
   text-align: center;
 }
 
+h2 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
 .container {
   background-color: var(--white);
   padding: 1.5rem;
