@@ -6,4 +6,5 @@
 
 <ol>
   <li><a href="palindrome-checker">Palindrome Checker</a></li>
+  <li><a href="palindrome-checker">QR Code Component</a></li>
 </ol>
